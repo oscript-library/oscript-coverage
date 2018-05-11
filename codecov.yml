@@ -1,2 +1,2 @@
 fixes:
-  - "/work_dir/::"  # move path   e.g., "before/path" => "after/path"
+  - "*/work_dir/::"  # move path   e.g., "before/path" => "after/path"
