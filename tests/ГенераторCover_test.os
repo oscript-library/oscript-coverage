@@ -36,6 +36,7 @@
 
 	ПроцессорГенерации.ФайлСтатистики(ПутьКФайлуСтатистики)
 		.РабочийКаталог(ВременныйКаталог)
+		.ОтносительныеПути()
 		.КаталогИсходников("./fixtures/fake")
 		.GenericCoverage("genericCoverage.xml")
 		.Clover("fake-package", "clover.xml")
