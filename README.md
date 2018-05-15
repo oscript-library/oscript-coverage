@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/khorevaa/oscript-coverage.svg?branch=master)](https://travis-ci.org/khorevaa/oscript-coverage)
 [![Coverage Status](https://coveralls.io/repos/github/khorevaa/oscript-coverage/badge.svg?branch=master)](https://coveralls.io/github/khorevaa/oscript-coverage?branch=master)
 
-# Библиотека для конвертации в результата расчета покрытия тестами в различные форматы
+# Библиотека для конвертации результата расчета покрытия тестами в различные форматы
 
 ## Возможности
 
@@ -68,7 +68,7 @@ opm install coverage
 
 ## Использование совместно с `vscode`
 
-* Установить расширение `coverage-gutters` для `xcode`
+* Установить расширение `coverage-gutters` для `vscode`
 * Установить путь к файлу покрытия (настройка `coverage-gutters.xmlname`): `coverage/coverage.xml`
 * Установить библиотеке `coverage` по инструкции
 * Создать файла `coverage.os` с содержанием 
