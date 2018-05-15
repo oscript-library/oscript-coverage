@@ -40,6 +40,7 @@
 		.КаталогИсходников("./fixtures/fake")
 		.GenericCoverage("genericCoverage.xml")
 		.Clover("fake-package", "clover.xml")
+		.Cobertura()
 		.Сформировать();
 
 	ФайлClover = Новый Файл(ОбъединитьПути(ВременныйКаталог, "clover.xml"));
@@ -54,7 +55,5 @@
 КонецПроцедуры
 
 Процедура ПодготовитьТестовыеДанные()
-
-	
 
 КонецПроцедуры
