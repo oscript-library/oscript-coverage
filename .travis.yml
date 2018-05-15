@@ -44,7 +44,7 @@ script:
 after_success:
   - git config --local core.quotepath fals
   - git config --local merge.ours.driver true
-  - bash <(curl -s https://codecov.io/bash) -f coverage/clover.xml
+  - bash <(curl -s https://codecov.io/bash) -f coverage/coverage.xml
   - ./sonar-qube.sh
 
 cache:
